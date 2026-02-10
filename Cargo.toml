@@ -6,4 +6,5 @@ license = "AGPL-3.0-only"
 authors = ["Harihar Nautiyal <me@hariharnautiyal.com>"]
 
 [dependencies]
+image = { version = "0.25.9", default-features = false, features = ["png", "jpeg", "webp"] }
 leptos = { version = "0.8.15", features = ["csr", "tracing"] }

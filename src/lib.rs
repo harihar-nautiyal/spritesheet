@@ -2,6 +2,8 @@ use leptos::prelude::*;
 
 pub mod components;
 pub mod utils;
+pub mod models;
+pub mod modules;
 
 use crate::components::theme_toggle::ThemeToggle;
 
