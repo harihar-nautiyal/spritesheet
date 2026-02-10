@@ -1,0 +1,25 @@
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.button {
+  background: var(--primary);
+  color: var(--text);
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.button:hover {
+  filter: brightness(1.1);
+}
+
+.theme-toggle {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../styles/base/_globals.scss%22,%22../../styles/components/_button.scss%22,%22../../styles/components/_theme-toggle.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACE;EACA;EACA;;;ACHF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;;ACVJ;EACE;EACA%22,%22file%22:%22main.css%22%7D */

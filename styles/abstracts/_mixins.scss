@@ -1,0 +1,8 @@
+@mixin theme-vars($theme-name) {
+  $theme: map-get($themes, $theme-name);
+
+  @each $key, $value in $theme {
+    --#{$key}: #{$value};
+  }
+}
+
