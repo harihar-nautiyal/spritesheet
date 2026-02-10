@@ -2,6 +2,8 @@
 name = "spritesheet"
 version = "0.1.0"
 edition = "2024"
+license = "AGPL-3.0-only"
+authors = ["Harihar Nautiyal <me@hariharnautiyal.com>"]
 
 [dependencies]
 leptos = { version = "0.8.15", features = ["csr", "tracing"] }
